@@ -1,0 +1,29 @@
+{
+  "name": "retry-me",
+  "version": "1.0.0",
+  "description": "Single export interface to the retry module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timhudson/retry-me.git"
+  },
+  "keywords": [
+    "retry"
+  ],
+  "author": "Tim Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timhudson/retry-me/issues"
+  },
+  "homepage": "https://github.com/timhudson/retry-me",
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "dependencies": {
+    "retry": "^0.6.1",
+    "xtend": "^4.0.0"
+  }
+}
